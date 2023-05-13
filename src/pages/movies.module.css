@@ -1,0 +1,32 @@
+.main {
+    padding: 5rem;
+}
+
+.moviePoster {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgb(34, 70, 104);
+}
+
+.moviePoster > img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.moviePoster > div {
+    padding: 1rem;
+}
+
+.moviePoster h1 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: white;
+}
+
+.moviePoster p {
+    font-size: 0.875rem;
+    color: white;
+}

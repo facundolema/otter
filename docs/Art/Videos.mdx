@@ -1,0 +1,14 @@
+import VideoComponent from '../../src/components/VideoComponent';
+import getVideos from '../../src/getVideos';
+
+
+export default function Videos() {
+    const videos = getVideos("Art");
+    return (
+        <div>
+            {videos.map((video) => (
+                <VideoComponent url={video} />
+            ))}
+        </div>
+    )
+}

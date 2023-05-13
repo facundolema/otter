@@ -1,0 +1,13 @@
+- https://lenis.studiofreight.com/
+- https://www.sendwyre.com/
+- https://www.getrepeat.io/company
+- https://tympanus.net/Tutorials/OnScrollPathAnimations/
+- https://tympanus.net/Development/ScrollAnimationsGrid/index.html
+- https://www.wearejuliet.com/
+- https://65db.fr/en/
+- https://aanstekelijk.nl/
+- https://prespa.s.nomatter.dev/
+- https://experience.eau.veolia.fr/
+- https://blobmixer.14islands.com/
+- https://www.pola.co.jp/special/o/wecaremore/mothersday/
+- https://petertarka.com/
