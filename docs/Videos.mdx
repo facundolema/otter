@@ -2,6 +2,7 @@ import VideoContainer from '../src/components/VideoContainer';
 import getVideos from '../src/getVideos';
 
 export default function Videos() {
+  if (typeof window === 'undefined') return (<div></div>)
   const search = window.location.search
   const urlParams = new URLSearchParams(search);
   const tag = urlParams.get('tag');
