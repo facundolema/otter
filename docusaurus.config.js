@@ -4,6 +4,32 @@
 const lightCodeTheme = require('prism-react-renderer/themes/github');
 const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
+// Reverse the sidebar items ordering (including nested category items)
+function reverseSidebarItems(items) {
+  // Reverse items at current level
+  let result = items.map((item) => {
+    if (item.type === "category") {
+      const updatedItem = {...item, "items": [
+        ...item.items,
+        {
+          type: 'link',
+          label: 'Videos', // The link label
+          href: `/docs/Videos?tag=${item.label}`, // The internal path
+        }
+      ]}
+      return updatedItem;
+    } else {
+      return item;
+    }
+  })
+  return result;
+}
+
+const generator = async ({defaultSidebarItemsGenerator, ...args}) => {
+  const sidebarItems = await defaultSidebarItemsGenerator(args);
+  return reverseSidebarItems(sidebarItems);
+}
+
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'My Site',
@@ -40,6 +66,7 @@ const config = {
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
+          sidebarItemsGenerator: generator,
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -56,6 +83,7 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        
       }),
     ],
   ],

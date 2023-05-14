@@ -1,0 +1,14 @@
+import VideoContainer from '../src/components/VideoContainer';
+import getVideos from '../src/getVideos';
+
+export default function Videos() {
+  const search = window.location.search
+  const urlParams = new URLSearchParams(search);
+  const tag = urlParams.get('tag');
+  const videos = getVideos(tag);
+  return (
+      <div>
+          {videos.map((video) => <VideoContainer video={video} />)}
+      </div>
+  )
+}

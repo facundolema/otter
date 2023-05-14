@@ -1,4 +1,5 @@
 import * as React from 'react'
+// @ts-expect-error
 import style from './VideoContainer.module.scss'
 import Collapsible from 'react-collapsible';
 
