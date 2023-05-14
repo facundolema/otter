@@ -1,0 +1,28 @@
+.chip {
+    display: flex;
+    flex-wrap: wrap;
+    width: fit-content;
+    min-width: 75px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1000px;
+    padding: 8px 16px 8px 8px;
+    border: 1px solid var(--ifm-color-content);
+    border-radius: 100rem;
+    gap: .5rem;
+}
+
+.circle {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.icon {
+    fill: var(--ifm-color-content);
+}
+.iconSVG { height: 24px ;}
+.iconSVG path {
+    fill: var(--ifm-color-content);
+}
