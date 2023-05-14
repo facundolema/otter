@@ -12,10 +12,6 @@ export default function VideoComponent({url, watched}) {
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowFullScreen={true} />
             <span>Watched</span>
-            <details>
-                <summary>Watched</summary>
-                <p>hello</p>
-            </details>
         </div>
     )
 }

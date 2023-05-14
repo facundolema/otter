@@ -4,7 +4,6 @@
     border: 2px solid var(--ifm-color-primary);
     background-color: var(--ifm-color-primary);
     display: flex;
-    margin: 1rem 0;
 }
 
 .videoContainer iframe {

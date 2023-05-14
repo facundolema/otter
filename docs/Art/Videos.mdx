@@ -1,13 +1,22 @@
 import VideoComponent from '../../src/components/VideoComponent';
 import getVideos from '../../src/getVideos';
-
+import Collapsible from 'react-collapsible';
 
 export default function Videos() {
     const videos = getVideos("Art");
     return (
         <div>
             {videos.map((video) => (
-                <VideoComponent url={video} />
+                <Collapsible trigger={<VideoComponent url={video} />}>
+                  <p>
+                    This is the collapsible content. It can be any element or React
+                    component you like.
+                  </p>
+                  <p>
+                    It can even be another Collapsible component. Check out the next
+                    section!
+                  </p>
+                </Collapsible>
             ))}
         </div>
     )
