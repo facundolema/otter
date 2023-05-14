@@ -1,0 +1,30 @@
+.videoContainer {
+    overflow: hidden;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.videoContainer iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+    border-radius: 1rem;
+}
+
+.chipContainer {
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 0.5rem;
+}
+
+.chip {
+    display: inline-block;
+    width: fit-content;
+    background-color: var(--ifm-color-secondary);
+    color: var(--ifm-background-color);
+    padding: 4px 12px;
+    border-radius: 6px;
+    font-weight: 600;
+}
