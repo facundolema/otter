@@ -6,7 +6,6 @@ import AndroidstudioOriginal from 'devicons-react/lib/icons/AndroidstudioOrigina
 import IntellijOriginal from 'devicons-react/lib/icons/IntellijOriginal';
 import VscodeOriginal from 'devicons-react/lib/icons/VscodeOriginal';
 import XcodeOriginal from 'devicons-react/lib/icons/XcodeOriginal';
-
 import _3dsmaxOriginal from 'devicons-react/lib/icons/_3dsmaxOriginal';
 import AftereffectsOriginal from 'devicons-react/lib/icons/AftereffectsOriginal';
 import AWSOriginal from 'devicons-react/lib/icons/AmazonwebservicesOriginalWordmark';
@@ -23,10 +22,9 @@ import DartOriginal from 'devicons-react/lib/icons/DartOriginal';
 import DjangoPlain from 'devicons-react/lib/icons/DjangoPlain';
 import DockerOriginal from 'devicons-react/lib/icons/DockerOriginal';
 import DotNetOriginal from 'devicons-react/lib/icons/DotNetOriginal';
-
 import FedoraOriginal from 'devicons-react/lib/icons/FedoraOriginal';
 import FigmaOriginal from 'devicons-react/lib/icons/FigmaOriginal';
-import FirebasePlainWordmark from 'devicons-react/lib/icons/FirebasePlainWordmark';
+import FirebasePlain from 'devicons-react/lib/icons/FirebasePlain';
 import FlaskOriginal from 'devicons-react/lib/icons/FlaskOriginal';
 import FlutterOriginal from 'devicons-react/lib/icons/FlutterOriginal';
 import GimpOriginal from 'devicons-react/lib/icons/GimpOriginal';
@@ -83,20 +81,17 @@ import UnityOriginal from 'devicons-react/lib/icons/UnityOriginal';
 import UnrealengineOriginal from 'devicons-react/lib/icons/UnrealengineOriginal';
 import VercelOriginal from 'devicons-react/lib/icons/VercelOriginal';
 import VisualstudioPlain from 'devicons-react/lib/icons/VisualstudioPlain';
-import ViteOriginal from 'devicons-react/lib/icons/ViteOriginal';
 import VitejsOriginal from 'devicons-react/lib/icons/VitejsOriginal';
 import VuejsOriginal from 'devicons-react/lib/icons/VuejsOriginal';
 import WasmOriginal from 'devicons-react/lib/icons/WasmOriginal';
 import Windows11Original from 'devicons-react/lib/icons/Windows11Original';
 import WordpressOriginal from 'devicons-react/lib/icons/WordpressOriginal';
 import XdPlain from 'devicons-react/lib/icons/XdPlain';
-
-
-
+import AppleOriginal from 'devicons-react/lib/icons/AppleOriginal';
 
 export function ListItem({IconElement, label}) {
   return (
-    <div style={{display: "flex", gap: "0.5rem", alignItems: "center"}}>
+    <div style={{display: "flex", gap: "0.5rem", alignItems: "center", width: "50%", margin: "2px 0"}}>
       <IconElement size={24} />
       <div>{label}</div>
     </div>
@@ -112,47 +107,161 @@ export function BigListItem({IconElement, label}) {
   );
 }
 
+export function List({children}) {
+  return (
+    <div style={{display: "flex", flexWrap: "wrap", marginBottom: "1rem"}}>
+      {children}
+    </div>
+  );
+}
+
 # Facundo Lema
 
 ## Tech Stack
 
+:::note
+
+This is a list of the technologies I have used in the past and I am currently 
+using. I am not an expert in all of them, but I have used them enough to be able 
+to work with them.
+
+
+:::
+
+:::note
+
+There are technologies that don't technically fit the category 
+they are in, but I have put them there because that is their closest match.
+
+:::
+
+### Programming Languages
+<List>
+  <ListItem IconElement={BashOriginal}            label="Bash"                />
+  <ListItem IconElement={COriginal}               label="C"                   />
+  <ListItem IconElement={CplusplusOriginal}       label="C++"                 />
+  <ListItem IconElement={CsharpOriginal}          label="C#"                  />
+  <ListItem IconElement={Css3Original}            label="CSS"                 />
+  <ListItem IconElement={DartOriginal}            label="Dart"                />
+  <ListItem IconElement={KotlinOriginal}          label="Kotlin"              />
+  <ListItem IconElement={HaskellOriginal}         label="Haskell"             />
+  <ListItem IconElement={Html5Original}           label="HTML"                />
+  <ListItem IconElement={JavaOriginal}            label="Java"                />
+  <ListItem IconElement={JavascriptOriginal}      label="Javascript"          />
+  <ListItem IconElement={GoOriginalWordmark}      label="Go"                  />
+  <ListItem IconElement={LuaOriginal}             label="Lua"                 />
+  <ListItem IconElement={MarkdownOriginal}        label="Markdown"            />
+  <ListItem IconElement={LatexOriginal}           label="Latex"               />
+  <ListItem IconElement={ObjectivecPlain}         label="Objective C"         />
+  <ListItem IconElement={PowershellOriginal}      label="Powershell"          />
+  <ListItem IconElement={PythonOriginal}          label="Python"              />
+  <ListItem IconElement={SwiftOriginal}           label="Swift"               />
+  <ListItem IconElement={RPlain}                  label="R"                   />
+  <ListItem IconElement={RubyOriginal}            label="Ruby"                />
+  <ListItem IconElement={RustPlain}               label="Rust"                />
+  <ListItem IconElement={SassOriginal}            label="Sass"                />
+  <ListItem IconElement={TypescriptOriginal}      label="Typescript"          />
+</List>
+
+### Frameworks
+<List>
+  <ListItem IconElement={BootstrapOriginal}       label="Bootstrap"           />
+  <ListItem IconElement={DotNetOriginal}          label=".NET"                />
+  <ListItem IconElement={DjangoPlain}             label="Django"              />
+  <ListItem IconElement={FlaskOriginal}           label="Flask"               />
+  <ListItem IconElement={FlutterOriginal}         label="Flutter"             />
+  <ListItem IconElement={NextjsOriginal}          label="Next.js"             />
+  <ListItem IconElement={VitejsOriginal}          label="Vite.js"             />
+  <ListItem IconElement={VuejsOriginal}           label="Vue.js"              />
+  <ListItem IconElement={SvelteOriginal}          label="Svelte"              />
+  <ListItem IconElement={RailsPlain}              label="Rails"               />
+  <ListItem IconElement={ReactOriginal}           label="React"               />
+  <ListItem IconElement={TailwindcssOriginal}     label="Tailwindcss"         />
+</List>
+
+### Libraries
+<List>
+  <ListItem IconElement={ThreejsOriginal}         label="Three.js"            />
+  <ListItem IconElement={NumpyOriginal}           label="Numpy"               />
+  <ListItem IconElement={MatplotlibOriginal}      label="Matplotlib"          />
+  <ListItem IconElement={PandasOriginalWordmark}  label="Pandas"              />
+  <ListItem IconElement={PytorchOriginal}         label="Pytorch"             />
+  <ListItem IconElement={TensorflowOriginal}      label="Tensorflow"          />
+  <ListItem IconElement={SeleniumOriginal}        label="Selenium"            />
+</List>
+
+### Databases
+<List>
+  <ListItem IconElement={PostgresqlOriginal}      label="PostgreSQL"          />
+  <ListItem IconElement={MongodbOriginal}         label="MongoDB"             />
+  <ListItem IconElement={MysqlOriginal}           label="MySQL"               />
+  <ListItem IconElement={SqliteOriginal}          label="SQLite"              />
+  <ListItem IconElement={RedisOriginal}           label="Redis"               />
+</List>
+
 ### IDEs
+<List>
+  <ListItem IconElement={AndroidstudioOriginal}   label="Android Studio"      />
+  <ListItem IconElement={VscodeOriginal}          label="Visual Studio Code"  />
+  <ListItem IconElement={IntellijOriginal}        label="Intellij IDEA"       />
+  <ListItem IconElement={XcodeOriginal}           label="Xcode"               />
+  <ListItem IconElement={VisualstudioPlain}       label="Visual Studio"       />
+</List>
 
-<ListItem IconElement={AndroidstudioOriginal}   label="Android Studio"      />
-<ListItem IconElement={VscodeOriginal}          label="Visual Studio Code"  />
-<ListItem IconElement={IntellijOriginal}        label="Intellij IDEA"       />
-<ListItem IconElement={XcodeOriginal}           label="Xcode"               />
+### Operating Systems
+<List>
+  <ListItem IconElement={ArchlinuxOriginal}       label="Arch Linux"          />
+  <ListItem IconElement={LinuxOriginal}           label="Linux"               />
+  <ListItem IconElement={UbuntuPlain}             label="Ubuntu"              />
+  <ListItem IconElement={Windows11Original}       label="Windows"             />
+  <ListItem IconElement={AppleOriginal}           label="MacOS"               />
+  <ListItem IconElement={FedoraOriginal}          label="Fedora"              />
+</List>
 
-<br />
+### Design & 3D
+
+<List>
+  <ListItem IconElement={_3dsmaxOriginal}         label="3Ds Max"             />
+  <ListItem IconElement={AftereffectsOriginal}    label="Adobe After Effects" />
+  <ListItem IconElement={BlenderOriginal}         label="Blender 3D"          />
+  <ListItem IconElement={FigmaOriginal}           label="Figma"               />
+  <ListItem IconElement={GimpOriginal}            label="Gimp"                />
+  <ListItem IconElement={PremiereproOriginal}     label="Adobe Premiere Pro"  />
+  <ListItem IconElement={MayaOriginal}            label="Maya" />
+  <ListItem IconElement={XdPlain}                 label="Adobe XD" />
+</List>
 
 ### Other Tools
-
-<ListItem IconElement={_3dsmaxOriginal}         label="3Ds Max"      />
-<ListItem IconElement={AftereffectsOriginal}    label="Adobe After Effects"  />
-<ListItem IconElement={AWSOriginal}             label="AWS"/>
-<ListItem IconElement={ArchlinuxOriginal}       label="Arch Linux"   />
-<ListItem IconElement={BashOriginal}            label="Bash"         />
-<ListItem IconElement={BlenderOriginal}         label="Blender 3D"         />
-<ListItem IconElement={BootstrapOriginal}       label="Bootstrap"        />
-<ListItem IconElement={BunOriginal}             label="Bun"        />
-<ListItem IconElement={COriginal}               label="C"        />
-<ListItem IconElement={CplusplusOriginal}               label="C++"        />
-<ListItem IconElement={CsharpOriginal}               label="C#"        />
-<ListItem IconElement={Css3Original}               label="CSS"        />
-<ListItem IconElement={DartOriginal}               label="Dart"        />
-<ListItem IconElement={DjangoPlain}               label="Django"        />
-<ListItem IconElement={DockerOriginal}               label="Docker"        />
-<ListItem IconElement={DotNetOriginal}               label=".NET"        />
-
+<List>
+  <ListItem IconElement={AWSOriginal}             label="AWS"                 />
+  <ListItem IconElement={BunOriginal}             label="Bun"                 />
+  <ListItem IconElement={DockerOriginal}          label="Docker"              />
+  <ListItem IconElement={FirebasePlain}           label="Firebase"            />
+  <ListItem IconElement={GitOriginal}             label="Git"                 />
+  <ListItem IconElement={GithubOriginal}          label="Github"              />
+  <ListItem IconElement={GradlePlain}             label="Gradle"              />
+  <ListItem IconElement={GraphqlPlain}            label="GraphQL"             />
+  <ListItem IconElement={KerasOriginal}           label="Keras"               />
+  <ListItem IconElement={MatlabOriginal}          label="Matlab"              />
+  <ListItem IconElement={MongooseOriginal}        label="Mongoose"            />
+  <ListItem IconElement={NodejsOriginal}          label="Node.js"             />
+  <ListItem IconElement={SshOriginal}             label="SSH"                 />
+  <ListItem IconElement={UnityOriginal}           label="Unity"               />
+  <ListItem IconElement={QtOriginal}              label="Qt"                  />
+  <ListItem IconElement={UnrealengineOriginal}    label="Unreal Engine"       />
+  <ListItem IconElement={VercelOriginal}          label="Vercel"              />
+  <ListItem IconElement={WasmOriginal}            label="Wasm"                />
+  <ListItem IconElement={WordpressOriginal}       label="Wordpress"           />
+</List>
 
 <br />
 
 ### IDEs
 <div style={{display: "flex", flexWrap: "wrap", gap: "1rem"}}>
-    <BigListItem IconElement={AndroidstudioOriginal}    label="Android Studio"      />
-    <BigListItem IconElement={VscodeOriginal}           label="Visual Studio Code"  />
-    <BigListItem IconElement={IntellijOriginal}         label="Intellij IDEA"       />
-    <BigListItem IconElement={XcodeOriginal}            label="Xcode"               />
+  <BigListItem IconElement={AndroidstudioOriginal}    label="Android Studio"      />
+  <BigListItem IconElement={VscodeOriginal}           label="Visual Studio Code"  />
+  <BigListItem IconElement={IntellijOriginal}         label="Intellij IDEA"       />
+  <BigListItem IconElement={XcodeOriginal}            label="Xcode"               />
 </div>
 
 <br />
@@ -165,17 +274,5 @@ export function BigListItem({IconElement, label}) {
         <AndroidstudioOriginal className={styles.icon} size={24}/>
         </span>
         Android Studio
-    </div>
-    <div className={styles.chip}>
-        <span className={styles.circle}>
-        <VscodeOriginal size={24}/>
-        </span>
-        Visual Studio Code
-    </div>
-    <div className={styles.chip}>
-        <span className={styles.circle}>
-        <BashPlain size={24}/>
-        </span>
-        Bash
     </div>
 </div>

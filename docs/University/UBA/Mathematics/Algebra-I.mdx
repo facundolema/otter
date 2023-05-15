@@ -1,0 +1,55 @@
+---
+sidebar_label: 'Algebra I'
+---
+
+import VideoContainer from '../../../../src/components/VideoContainer';
+
+# Teorica 1
+
+<VideoContainer video={{url: "https://www.youtube.com/embed/5EIr911tbTM", tags: ["Watched"]}} />
+<VideoContainer video={{url: "https://www.youtube.com/embed/2BYq-61FZDw", tags: []}} />
+
+## Teoria de Conjuntos
+
+Teoria desarrollada por [Georg Cantor](https://es.wikipedia.org/wiki/Georg_Cantor).
+
+> Un conjunto es una colección de objetos.
+
+Los conjuntos se pueden representar de dos formas:
+
+- Por extensión: Se enumeran todos los elementos del conjunto. <br />
+$X = \{1, 2, 3, 4, 5\}$
+
+- Por comprensión: Se describe una propiedad que cumplen todos los elementos del conjunto. <br />
+$X = \{x \in \mathbb{N} \mid 1 \leq x \leq 5\}$
+
+### Inclusión de Conjuntos
+
+Dado $A, B \subseteq U$, se dice que $A$ está incluido en $B$ si todos los elementos de $A$ están en $B$.
+
+Si $A \subset B$, $A$ es un subconjunto de $B$.
+
+$A \subseteq B \land B \subseteq A \iff A = B$.
+
+$A \subseteq A \land \varnothing \subseteq A \ \forall A$
+
+### Conjunto de Partes
+
+> El conjunto de partes es el conjunto de los subconjuntos de un conjunto dado.
+
+$P(A) = \{B \mid B \subseteq A\}$
+
+$P(\varnothing) = \{\varnothing\}$
+
+$P(\{1\}) = \{\varnothing, \{1\}\}$
+
+$P(\{1, 2\}) = \{\varnothing, \{1\}, \{2\}, \{1, 2\}\}$
+
+$P(\{1, 2, 3\}) = \{\varnothing, \{1\}, \{2\}, \{3\}, \{1, 2\}, \{1, 3\}, \{2, 3\}, \{1, 2, 3\}\}$
+
+
+# Teorica 2
+
+<VideoContainer video={{url: "https://www.youtube.com/embed/A6hfHYbP7AE", tags: []}} />
+<VideoContainer video={{url: "https://www.youtube.com/embed/blKMqvDNyq0", tags: []}} />
+
