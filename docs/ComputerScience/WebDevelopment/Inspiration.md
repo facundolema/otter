@@ -11,3 +11,5 @@
 - https://blobmixer.14islands.com/
 - https://www.pola.co.jp/special/o/wecaremore/mothersday/
 - https://petertarka.com/
+- https://spotlight.tailwindui.com/
+- https://www.halo-lab.com/

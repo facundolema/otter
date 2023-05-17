@@ -12,3 +12,12 @@ sidebar_label: Computer Science
 - https://threejs.org/
 - https://tailwindcss.com/
 - https://react.dev/
+- https://mermaid.js.org/
+- https://swr.vercel.app/
+- https://web.dev/cls/
+- https://web.dev/vitals/#core-web-vitals
+- https://dev.to/underscorecode/javascript-bundlers-an-in-depth-comparative-is-webpack-still-the-best-bundler-in-2021-59jk
+- https://docs.emmet.io/
+- https://redux.js.org/
+- https://vuex.vuejs.org/
+- https://pinia.vuejs.org/
