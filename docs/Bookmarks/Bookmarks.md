@@ -30,3 +30,11 @@
 - https://www.pinterest.se/pin/203858320625064953/
 - https://www.pinterest.se/pin/453808099963774605/
 - https://www.pinterest.se/pin/568509152975770714/
+- https://4dayweek.io/blog/software-engineering-salaries-in-europe-vs-the-united-states-2021
+- https://tech.eu/2014/05/06/european-tech-hubs/
+- https://www.forbes.com/sites/markminevich/2021/12/03/can-europe-dominate-in-innovation-despite-us-big-tech-lead/
+- https://www.cronista.com/columnistas/La-ley-de-convertibilidad-impide-la-pesificacion-de-la-economia-argentina-20200926-0001.html
+- https://comercioyjusticia.info/opinion/otra-vez-la-indexacion
+- https://en.wikipedia.org/wiki/Age_of_criminal_responsibility
+- https://en.wikipedia.org/wiki/Marbury_v._Madison
+- https://es.wikipedia.org/wiki/Germ%C3%A1n_Bidart_Campos
