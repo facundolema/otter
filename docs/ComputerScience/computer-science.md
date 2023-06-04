@@ -21,6 +21,7 @@ sidebar_label: Computer Science
 - https://redux.js.org/
 - https://vuex.vuejs.org/
 - https://pinia.vuejs.org/
+- https://leetcode.com/
 - https://gohugo.io/
 - https://nextra.site/
 - https://adocs.vercel.app/

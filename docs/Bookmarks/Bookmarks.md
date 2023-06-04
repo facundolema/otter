@@ -30,6 +30,14 @@
 - https://www.pinterest.se/pin/203858320625064953/
 - https://www.pinterest.se/pin/453808099963774605/
 - https://www.pinterest.se/pin/568509152975770714/
+- - https://www.youtube.com/watch?v=pfaSUYaSgRo
+- https://www.youtube.com/watch?v=bI-FS7aZJpY
+- https://www.youtube.com/watch?v=tAuRQs_d9F8
+- https://www.youtube.com/watch?v=FU_YFpfDqqA
+- https://www.youtube.com/watch?v=8wysIxzqgPI
+- https://www.linkedin.com/pulse/list-algorithms-computer-programming-pranam-bhat
+- https://www.theodinproject.com/paths
+- https://www.reddit.com/r/leetcode/comments/u4320t/will_top_tier_companies_accept_me/
 - https://4dayweek.io/blog/software-engineering-salaries-in-europe-vs-the-united-states-2021
 - https://tech.eu/2014/05/06/european-tech-hubs/
 - https://www.forbes.com/sites/markminevich/2021/12/03/can-europe-dominate-in-innovation-despite-us-big-tech-lead/
