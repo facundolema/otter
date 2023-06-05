@@ -26,3 +26,9 @@ sidebar_label: Computer Science
 - https://nextra.site/
 - https://adocs.vercel.app/
 - https://kit.svelte.dev/
+- https://chakra-ui.com/
+- https://www.reddit.com/r/reactjs/comments/mpkea6/chakra_ui_vs_material_ui/
+- https://docsearch.algolia.com/
+- https://expo.github.io/router/docs
+- https://www.youtube.com/watch?v=NuyzuNBFWxQ
+- https://expo.dev/
