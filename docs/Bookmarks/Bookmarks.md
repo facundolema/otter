@@ -131,3 +131,4 @@
 - https://bloustein.rutgers.edu/how-does-the-local-cost-of-living-affect-a-households-standard-of-living/
 - https://medium.com/simform-engineering/manage-dark-mode-in-react-native-application-2a04ba7e76d0
 - https://blog.logrocket.com/guide-react-natives-asyncstorage/
+- https://debatewise.org/982-prisoners-should-be-used-for-medical-experiments-without-consent/
