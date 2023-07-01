@@ -195,8 +195,6 @@
 - https://twitter.com/beer_football/status/1511001626705895437?s=20
 - https://twitter.com/francis_scarr/status/1510898134481788930?s=20
 - https://twitter.com/JominiW/status/1497670934244872199?s=20
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Mar 30: <br>Ru troops leave Bucha<br>Mar 31:<br>Mayor of Bucha announces town &#39;liberated&#39;, makes no mention of atrocities.<a href="https://t.co/WLAfjJOfZt">https://t.co/WLAfjJOfZt</a><br>Apr 1/2:<br>Azov Nazis enter Bucha<a href="https://t.co/WkSTMUJy4O">https://t.co/WkSTMUJy4O</a><br>Apr 3:<br>Ukr MinDef publishes video of &#39;Russian&#39; atrocities<a href="https://t.co/HDUUYI7zex">https://t.co/HDUUYI7zex</a> <a href="https://t.co/PQUgD9izpz">pic.twitter.com/PQUgD9izpz</a></p>&mdash; Moon of Alabama (@MoonofA) <a href="https://twitter.com/MoonofA/status/1510635534321860611?ref_src=twsrc%5Etfw">April 3, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
 - https://twitter.com/MoonofA/status/1510635534321860611?s=20
 - https://twitter.com/MarkAmesExiled/status/1510620676968828931?s=20
 - https://twitter.com/aaronjmate/status/1510501713698041856?s=20
