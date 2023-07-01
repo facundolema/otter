@@ -1,0 +1,5 @@
+- https://es.m.wikipedia.org/wiki/Melanismo
+- https://en.m.wikipedia.org/wiki/Chemical_castration
+- https://www.treehugger.com/mammals-that-lay-eggs-5101526
+- https://en.m.wikipedia.org/wiki/White-eared_opossum
+- https://www.smithsonianmag.com/smart-news/tiger-vs-lionwho-would-win-83275452/

@@ -1,0 +1,2 @@
+- https://en.m.wikipedia.org/wiki/Gunpowder
+- https://en.m.wikipedia.org/wiki/Potassium_nitrate

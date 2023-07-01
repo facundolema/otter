@@ -1,0 +1,2 @@
+- https://en.m.wikipedia.org/wiki/Shotgun
+- https://physics.stackexchange.com/questions/105990/why-is-a-gun-less-accurate-when-the-barrel-heats-up

@@ -1,0 +1,2 @@
+- https://amp.theguardian.com/world/2022/mar/21/china-has-fully-militarized-three-islands-in-south-china-sea-us-admiral-says
+- https://en.m.wikipedia.org/wiki/Political_status_of_Puerto_Rico
