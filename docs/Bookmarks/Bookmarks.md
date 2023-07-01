@@ -131,6 +131,7 @@
 - https://bloustein.rutgers.edu/how-does-the-local-cost-of-living-affect-a-households-standard-of-living/
 - https://medium.com/simform-engineering/manage-dark-mode-in-react-native-application-2a04ba7e76d0
 - https://blog.logrocket.com/guide-react-natives-asyncstorage/
+- https://debatewise.org/982-prisoners-should-be-used-for-medical-experiments-without-consent/
 - https://www.police1.com/patrol-issues/articles/why-shooting-to-wound-doesnt-make-sense-scientifically-legally-or-tactically-6bOdYvNUEECtIWRI/
 - https://aldiaargentina.microjuris.com/2017/05/23/la-corte-revoco-el-fallo-que-declaro-inconstitucional-la-prohibicion-de-indexar-los-honorarios-de-abogados/amp/
 - https://muabogados.com.ar/doctrina/finalmente-se-declaro-la-inconstitucionalidad-de-la-prohibicion-de-indexar/
