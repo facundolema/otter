@@ -32,3 +32,4 @@ sidebar_label: Computer Science
 - https://expo.github.io/router/docs
 - https://www.youtube.com/watch?v=NuyzuNBFWxQ
 - https://expo.dev/
+- https://docs.gtk.org/gtk3/getting_started.html
